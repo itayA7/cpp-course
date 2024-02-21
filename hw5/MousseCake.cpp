@@ -1,5 +1,4 @@
 #include "MousseCake.h"
-#include <cstring>
 using namespace std;
 
 MousseCake::MousseCake(Date expiryDate, double height, double price, int storage, bool glutenFree, char* taste)

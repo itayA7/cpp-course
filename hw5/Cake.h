@@ -1,5 +1,6 @@
 #ifndef CAKE_H
 #define CAKE_H
+#include <cstring>
 
 #include "Date.h"
 
@@ -22,6 +23,7 @@ public:
     Cake &operator=(Cake &other);
     void operator+=(int addCakePrice);
     friend ostream &operator<<(ostream &os, Cake &Cake);
+    virtual string showRecip() = 0;
 };
 
 #endif
